@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="paint.js" defer></script>
+    <style>
+        canvas {
+            border: 5px solid salmon;
+        }
+
+        body {
+            font-family: Comic Sans MS;
+        }
+    </style>
+    <title>Budget MS Paint</title>
+</head>
+
+<body>
+    <h1>Paint Application</h1>
+    <canvas id="canvas"></canvas>
+    <br>
+    <label for="colour">Current Drawing Colour: </label><input type="color" name="colour" id="colour">
+    <br>
+    <label for="remember">Click to remember colour: </label><button id="remember">Remember Me Simba</button>
+    <br>
+    <p id="list">Colour list: </p>
+    <br>
+    <label for="cycle">Click to cycle colours: </label><button id="cycle">Cycle Colours!</button> <button
+        id="stop">Stop!</button>
+</body>
+
+</html>
